@@ -1,1 +1,1 @@
-# fs-palautusrepositorio
+# Full stack palautusrepositorio
