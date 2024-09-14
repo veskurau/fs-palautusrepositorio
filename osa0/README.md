@@ -1,29 +1,13 @@
-# ESIMERKKI
+# Osa 0 tehtävät:
 
-sequenceDiagram
-    participant browser
-    participant server
-    
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
-    activate server
-    server-->>browser: HTML document
-    deactivate server
-    
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
-    activate server
-    server-->>browser: the css file
-    deactivate server
-    
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
-    activate server
-    server-->>browser: the JavaScript file
-    deactivate server
-    
-    Note right of browser: The browser starts executing the JavaScript code that fetches the JSON from the server
-    
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-    activate server
-    server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
-    deactivate server    
+## Tehtävä 0.4: uusi muistiinpano
 
-    Note right of browser: The browser executes the callback function that renders the notes 
+![Tehtävä 0.4](tehtava0.4.png "uusi muistiinpano")
+
+## Tehtävä 0.5: SIngle Page App
+
+![Tehtävä 0.5](tehtava0.5.png "Single Page App")
+
+## Tehtävä 0.6: SIngle Page App - Uusi muistiinpano
+
+![Tehtävä 0.6](tehtava0.6.png "Singel Page App - uusi muistiinpano")
