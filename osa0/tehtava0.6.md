@@ -1,7 +1,8 @@
 # Tehtävä 0.6: Single Page App, uusi muistiinpano
-![Tehtävä 0.6](tehtava0.6.png "Singel Page App, uusi muistiinpano")
+![Tehtävä 0.6](tehtava0.6.png "Singel Page App - uusi muistiinpano")
 
 sequenceDiagram
+
     participant browser
     participant server
     

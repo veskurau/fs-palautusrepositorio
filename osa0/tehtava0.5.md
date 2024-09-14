@@ -1,7 +1,8 @@
 # Tehtävä 0.5: Single Page App
-![Tehtävä 0.5](tehtava0.5.png "Singel Page App")
+![Tehtävä 0.5](tehtava0.5.png "Single Page App")
 
 sequenceDiagram
+
     participant browser
     participant server
     
